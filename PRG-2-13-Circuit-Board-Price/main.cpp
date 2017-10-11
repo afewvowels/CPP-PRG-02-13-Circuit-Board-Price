@@ -24,7 +24,7 @@ int main() {
     float fltProfit;
     
     // Calculate profit
-    fltProfit = FLT_ITEM_COST * FLT_PROFIT_MARGIN;
+    fltProfit = FLT_ITEM_COST + (FLT_ITEM_COST * FLT_PROFIT_MARGIN);
     
     // Configure output decimal for dollar amount
     cout << setprecision(2) << fixed << showpoint;
