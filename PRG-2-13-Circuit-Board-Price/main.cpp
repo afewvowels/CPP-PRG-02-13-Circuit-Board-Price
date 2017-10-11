@@ -18,7 +18,7 @@ int main() {
     
     // Define constants
     const float FLT_PROFIT_MARGIN = 0.35f;
-    const float FLT_ITEM_COST = 15.95f;
+    const float FLT_ITEM_COST = 14.95f;
     
     // Define variable
     float fltProfit;
